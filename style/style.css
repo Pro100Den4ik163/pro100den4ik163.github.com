@@ -18,10 +18,11 @@ header {
 	background-color:#222;
 
 }
-a > h1 >.home-page{
+header > a{
 	color:#fff;
-
+	
 }
+
 nav{
 
 }
