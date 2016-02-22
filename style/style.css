@@ -92,7 +92,7 @@ footer{
 .page-footer{
 	
 }
-a{
+nav > a{
 	color: #222;
 	font-size: 20pt;
 	text-decoration:none;
