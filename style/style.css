@@ -1,1 +1,97 @@
+*{
+	margin:0;
+}
 
+html {
+
+}
+body{
+
+
+}
+header {
+
+}
+.top-header {
+	height:60px;
+	width:auto;
+	background-color:#222;
+
+}
+a > h1 >.home-page{
+	color:#fff;
+
+}
+nav{
+
+}
+.top-nav{
+
+}
+.content{
+
+}
+article{
+
+}
+.block1{
+
+}
+.block2{
+
+}
+.block3{
+
+}
+.block4{
+
+}
+.block-header{
+
+}
+.Hblock-header{
+
+}
+.block-content{
+
+}
+.block-footer{
+
+}
+aside{
+
+}
+.bars{
+
+}
+.bar1{
+
+}
+.bar2{
+
+}
+.bar3{
+
+}
+.bar4{
+
+}
+.bar-header{
+
+}
+.Hbars{
+
+}
+.bar-footer{
+
+}
+footer{
+
+}
+.page-footer{
+	
+}
+li{
+	float:left;
+	left:10px;
+}
