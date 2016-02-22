@@ -94,4 +94,9 @@ footer{
 a{
 	color: #222;
 	font-size: 20pt;
+	text-decoration:none;
+}
+li{
+	list-style-type:none;
+}
 }
