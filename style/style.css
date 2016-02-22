@@ -91,7 +91,7 @@ footer{
 .page-footer{
 	
 }
-li{
-	float:left;
-	left:10px;
+a{
+	color: #222;
+	font-size: 20pt;
 }
