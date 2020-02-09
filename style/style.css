@@ -64,6 +64,10 @@ a{
   align-items: flex-end;
   justify-content: center;
 }
+.slide{
+  display: flex;
+  flex: 0 0 100%;
+}
 .slide-content{
   display: flex;
   flex-direction: column;
