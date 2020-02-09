@@ -58,7 +58,44 @@ a{
   text-decoration: none;
   color: #323232;
 }
+.slider{
+  display: flex;
+  height: 70vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+.slide-content{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+  align-items: center;
+  justify-content: space-between;
 
+}
+.slide-1{
+  background: url(../img/item1.png) no-repeat;
+  background-size: cover;
+  background-color: #44B1D2;
+  
+}
+.slide-2{
+  background: url(../img/item2.png) no-repeat;
+  background-size: cover;
+  background-color: #44B1D2;
+  
+}
+.slide-3{
+  background: url(../img/item3.png) no-repeat;
+  background-size: cover;
+  background-color: #44B1D2;
+  
+}
+.slide-4{
+  background: url(../img/item4.png) no-repeat;
+  background-size: cover;
+  background-color: #44B1D2;
+  
+}
 .services{
   display: flex;
   flex-direction: column;
