@@ -191,4 +191,8 @@ slideShow('#slider-1', {
 
 slideShow('#slider-2', {
   isAutoplay: true
-});   
+});
+
+slideShow('#slider-3', {
+  isAutoplay: true
+}); 
