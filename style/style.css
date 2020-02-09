@@ -170,28 +170,28 @@ a{
   background-color: #fff;
 }
 
-.slide-1{
+slide-1{
   background: url(../img/u1.jpg) no-repeat;
   background-size: cover;
   background-color: #44B1D2;
   
 }
 .slide-2{
-  background: url(../img/u2.jpg) no-repeat;
+  background: url(../img/item2.png) no-repeat;
   background-size: cover;
-  background-color: #44B1D2;
+  background-color: #567543;
   
 }
 .slide-3{
-  background: url(../img/u3.jpg) no-repeat;
+  background: url(../img/item3.png) no-repeat;
   background-size: cover;
-  background-color: #44B1D2;
+  background-color: #432243;
   
 }
 .slide-4{
-  background: url(../img/u4.jpg) no-repeat;
+  background: url(../img/item4.png) no-repeat;
   background-size: cover;
-  background-color: #44B1D2;
+  background-color: #343434;
   
 }
 .services{
