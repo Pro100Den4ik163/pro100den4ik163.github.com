@@ -317,7 +317,7 @@ a{
   line-height: 1.5;
 }
 .name-person {
-	padding: 15px 0;
+  padding-bottom: 30px;
 }
 
 .mail-form{
