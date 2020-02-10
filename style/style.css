@@ -152,7 +152,6 @@ a{
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
-  padding: 15px 0;
 }
 
 .slider__indicators li {
@@ -316,6 +315,9 @@ a{
 .text-comment{
   padding: 0 50px;
   line-height: 1.5;
+}
+.name-person {
+	padding: 15px 0;
 }
 
 .mail-form{
