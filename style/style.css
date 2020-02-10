@@ -152,6 +152,7 @@ a{
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
+  padding: 15px 0;
 }
 
 .slider__indicators li {
@@ -167,7 +168,7 @@ a{
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  padding: 15px 0;
+  
 }
 
 .slider__indicators li.active {
