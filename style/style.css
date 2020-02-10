@@ -10,14 +10,14 @@ body{
   display: flex;
   flex-direction: column;
 }
-.header-contacts{
+.header-contacts, .footer-contacts{
   display: flex;
   padding: 15px 15px;
   background-color: #44B1D2;
   justify-content: space-between;
   color: #fff;
 }
-.header-contacts li{
+.header-contacts li, .footer-contacts li{
   list-style-type: none;
   text-transform: uppercase;
 }
@@ -82,7 +82,10 @@ a{
 .slider__item {
   flex: 0 0 100%;
   max-width: 100%;
-  height: 70vh;
+  
+}
+.top-slider .slider__item{
+  min-height: 70vh;
 }
 
 /* стили для кнопок "вперед" и "назад" */
@@ -170,38 +173,40 @@ a{
   background-color: #fff;
 }
 
-slide-1{
+.slide-1{
   background: url(../img/u1.jpg) no-repeat;
   background-size: cover;
   background-color: #44B1D2;
   
 }
 .slide-2{
-  background: url(../img/item2.png) no-repeat;
+  background: url(../img/u2.jpg) no-repeat;
   background-size: cover;
-  background-color: #567543;
+  background-color: #44B1D2;
   
 }
 .slide-3{
-  background: url(../img/item3.png) no-repeat;
+  background: url(../img/u3.jpg) no-repeat;
   background-size: cover;
-  background-color: #432243;
+  background-color: #44B1D2;
   
 }
 .slide-4{
-  background: url(../img/item4.png) no-repeat;
+  background: url(../img/u4.jpg) no-repeat;
   background-size: cover;
-  background-color: #343434;
+  background-color: #44B1D2;
   
 }
+
 .services{
   display: flex;
   flex-direction: column;
 }
-.services-header{
+.services-header, .comments-header, .contacts-header, .mail-header{
   display: flex;
+  
 }
-.services-title{
+.services-title, .contacts-title, .mail-title{
   margin: 30px auto;
   padding: 15px 0;
   text-transform: uppercase;
@@ -274,4 +279,80 @@ slide-1{
   text-transform: uppercase;
   color: #fff;
   font-size: 12px;
+}
+
+.slide-team{
+  display: flex;
+  justify-content: space-around;
+}
+
+.slide-team{
+  display: flex;
+  background-color: #f5f5f5;
+}
+.comments-slider .slider__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #44B1D2;
+  color: #fff;
+  flex: 1 0 100%;
+  min-height: 40vh;
+
+}
+.comments-header{
+  background-color: #44B1D2;
+}
+.comments-title{
+  margin: 15px auto;
+  padding: 15px 0;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.text-comment{
+  padding: 0 50px;
+  line-height: 1.5;
+}
+
+.mail-form{
+  display: flex;
+  justify-content: space-around;
+}
+.mail-form form{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 50%;
+}
+button{
+  width: 20%;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #44B1D2;
+  color: #fff;
+  border: 0;
+}
+button:hover{
+  background-color: #fff;
+  color: #44B1D2;
+  padding: 14px 0;
+  border: 1px solid #44B1D2;
+}
+input, textarea{
+  margin: 10px;
+  padding: 15px;
+}
+
+.footer-contacts{
+  background-color: #fff;
+  color:#000;
+  padding: 30px 15px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  background-color: #323232;
 }
