@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   padding: 0;
   margin: 0;
@@ -20,6 +24,10 @@ body{
 .header-contacts li, .footer-contacts li{
   list-style-type: none;
   text-transform: uppercase;
+  
+}
+.header-contacts a{
+  color: #fff;
 }
 .logo{
   padding-top: 20px;
@@ -80,9 +88,11 @@ a{
 
 /* стили для слайдов */
 .slider__item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   flex: 0 0 100%;
   max-width: 100%;
-  
 }
 .top-slider .slider__item{
   min-height: 70vh;
@@ -167,7 +177,6 @@ a{
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  
 }
 
 .slider__indicators li.active {
@@ -203,11 +212,11 @@ a{
   display: flex;
   flex-direction: column;
 }
-.services-header, .comments-header, .contacts-header, .mail-header{
+.services-header, .team-header, .comments-header, .contacts-header, .mail-header{
   display: flex;
   
 }
-.services-title, .contacts-title, .mail-title{
+.services-title, .team-title, .comments-title, .contacts-title, .mail-title{
   margin: 30px auto;
   padding: 15px 0;
   text-transform: uppercase;
@@ -226,7 +235,7 @@ a{
   flex-wrap: wrap;
   padding: 15px;
   color: #fff;
-  flex: 0 0 21%;
+  flex: 0 0 24%;
   align-items: center;
   justify-content: space-between;
 }
@@ -270,6 +279,20 @@ a{
   margin: 15px 0;
 
 }
+.content-slide{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0px 30px 50px 30px;
+  background: rgb(68,177,210,0.7);
+  color: #fff;
+}
+.content-text{
+  padding-bottom: 15px;
+}
 .services-item:last-child{
   color: #A3A3A2;
 }
@@ -281,16 +304,38 @@ a{
   color: #fff;
   font-size: 12px;
 }
+.item-btn:hover{
+  background-color: #fff;
+  color: #44B1D2;
+}
 
+.team-slider{
+  background-color: #f5f5f5;
+}
 .slide-team{
   display: flex;
   justify-content: space-around;
+  flex: 0 0 100%;
+  min-width: 100%;
+}
+.person-img{
+  display: flex;
+  width: 50%;
+  flex: 1 0 50%;
+  height: 100vh;
+}
+.person-table{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  flex: 1 0 50%;
+}
+.person-item-1{
+  background: url(../img/person.jpg) no-repeat;
+  background-size: 100% 100% cover;
+  background-color: #44B1D2;
 }
 
-.slide-team{
-  display: flex;
-  background-color: #f5f5f5;
-}
 .comments-slider .slider__item{
   display: flex;
   flex-direction: column;
@@ -305,24 +350,21 @@ a{
 .comments-header{
   background-color: #44B1D2;
 }
-.comments-title{
-  margin: 15px auto;
-  padding: 15px 0;
-  text-transform: uppercase;
-  color: #fff;
-  border-bottom: 1px solid #fff;
-}
+
 .text-comment{
   padding: 0 50px;
   line-height: 1.5;
 }
-.name-person {
+.name-person{
   padding-bottom: 30px;
 }
-
+.comment-mail{
+  background-color: #f5f5f5;
+}
 .mail-form{
   display: flex;
   justify-content: space-around;
+  padding-bottom: 30px;
 }
 .mail-form form{
   display: flex;
@@ -346,6 +388,10 @@ button:hover{
 input, textarea{
   margin: 10px;
   padding: 15px;
+  background-color: #f5f5f5;
+  border: 1px solid #A3A3A2;
+  border-radius: 2px;
+  color: #A3A3A2;
 }
 
 .footer-contacts{
@@ -359,4 +405,15 @@ input, textarea{
   align-items: center;
   padding: 0 15px;
   background-color: #323232;
+  color: #fff;
+  text-transform: uppercase;
+}
+.social a, .up-btn{
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px;
+}
+.social a:hover, .up-btn:hover{
+  background-color: #fff;
+  color: #323232;
 }
