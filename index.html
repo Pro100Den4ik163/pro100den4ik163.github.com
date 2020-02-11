@@ -1,29 +1,10 @@
-<!DOCTYPE html>
-<html lang="ru">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    
-    
-    <!-- Добавляем стили из CDN -->
-    
-
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap&subset=cyrillic">
-    
-    <!-- МЕТА -->
-    <title>Document</title>
-</head>
-
-<body>
-    <header class="header">
+<header class="header" id="header">
         <div class="header-contacts">
             <li>адрес: г.москва, ул.верхние поля 48с3</li>
             <li>Режим работы: с 9:00 до 20:00</li>
             <li>Тел: +7(966)377-77-45</li>
             <li>E-mail: eekostom@gmail.com</li>
+            <li><a href="#">VK</a></li>
         </div>
         <nav class="header-nav">
             <div class="logo"><img src="../src/img/logo.png" alt="logo"></div>
@@ -42,13 +23,15 @@
         <div class="slider__wrapper">
           <div class="slider__items">
             <div class="slider__item slide-1">
-               
+               <div class="content-slide">
+                   <h2 class="content-title">Lorem, ipsum dolor.</h2>
+                   <p class="content-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus numquam provident, consequatur aliquid consequuntur, adipisci fugit autem, soluta hic commodi libero totam veritatis dicta dolore. Quibusdam vitae quam harum natus, reprehenderit laudantium, non aperiam laboriosam consequuntur quae, voluptas maiores unde fugiat quidem incidunt hic cupiditate. Doloremque nesciunt iste unde atque!</p>
+                   <a href="#" class="content-btn item-btn">подробнее</a>
+               </div>
             </div>
             <div class="slider__item slide-2">
-              
             </div>
             <div class="slider__item slide-3">
-              
             </div>
             <div class="slider__item slide-4">
               
@@ -134,21 +117,44 @@
     <section class="team-slider">
         <div id="slider-2" class="slider">
             <div class="slider__wrapper">
+                <div class="team-header">
+                    <h2 class="team-title">услуги</h2>
+                </div>
               <div class="slider__items">
                 <div class="slider__item slide-team">
-                   <div class="personal-img"><img src="../img/u3.jpg" alt="person"></div>
-                   <div class="personal-table"></div>
+                    <div class="person">
+                        <div class="personal-img person-item-1"><img src="../img/person.jpg" alt="person"></div>
+                        <h3 class="name-person">Фаррух Насыров</h3>
+                    </div>
+                   
+                   <div class="personal-table">
+                    <ul>
+                        <li>Насиров Фаррух Фарходович</li>
+                        <li>РОССИЙСКИЙ УНИВЕРСИТЕТ ДРУЖБЫ НАРОДОВ 2019</li>
+                        <li>Специализация: врач стоматолог общей практики</li>
+                        <li>КУРСЫ ПОВЫШЕНИЯ КВАЛИФИКАЦИИ:</li>
+                        <li>Базовый курс по дентальной имплантации.</li>
+                        <li>Повторное эндодонтическое лечение</li>
+                        <li>Художественная реставрация и определение цвета зуба.</li>
+                        <li>Полное съёмное протезирование.</li>
+                        <li>Протезирование на имплантатах.</li>
+                        <li>Микропротезирование — виниры, вкладки.</li>
+                        <li>Современные методы диагностики и лечения кариеса и его осложнений.</li>
+                        <li>IV ежегодный конгресс по эндодонтии.</li>
+                        <li>V ежегодный конгресс по опухолям головы и шеи.</li>  
+                    </ul>
+                   </div>
                 </div>
                 <div class="slider__item slide-team">
-                    <div class="personal-img"><img src="../img/person.jpg" alt="person"></div>
+                    <div class="personal-img person-item-2"><img src="../img/person.jpg" alt="person"></div>
                     <div class="personal-table"></div>
                 </div>
                 <div class="slider__item slide-team">
-                    <div class="personal-img"><img src="../img/person.jpg" alt="person"></div>
+                    <div class="personal-img person-item-3"><img src="../img/person.jpg" alt="person"></div>
                     <div class="personal-table"></div>
                 </div>
                 <div class="slider__item slide-team">
-                    <div class="personal-img"><img src="../img/person.jpg" alt="person"></div>
+                    <div class="personal-imgperson-item-4"><img src="../img/person.jpg" alt="person"></div>
                     <div class="personal-table"></div>
                 </div>
               </div>
@@ -224,18 +230,9 @@
     </section>
     <footer class="footer">
         <div class="logo"><img src="../src/img/logo.png" alt="logo"></div>
-        <div class="copy"><p class="footer-text">Lorem, ipsum.</p></div>
+        <div class="copy"><p class="footer-text">© 2020 ЭкоСтом. Стоматология эконом-класса</p></div>
         <div class="social">
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
+            <a href="#">VK</a>
         </div>
-        <a href="#" class="up-btn"></a>
+        <a href="#header" class="up-btn">&and;</a>
     </footer>
-<script type="text/javascript" src="/js/main.js"></script>      
-    
-    
-
-</body>
-
-</html>
