@@ -20,6 +20,7 @@ body{
   background-color: #44B1D2;
   justify-content: space-between;
   color: #fff;
+  flex-wrap: wrap;
 }
 .header-contacts li, .footer-contacts li{
   list-style-type: none;
