@@ -319,7 +319,7 @@ a{
 .slider__item_inner{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
   flex-direction: row;
   width: 100%;
   flex: 0 0 100%;
@@ -340,7 +340,7 @@ a{
   display: flex;
   flex-direction: column;
   flex: 0 0 50%;
-  justify-content: space-between;
+
 }
 
 .slider__item_img, .slider__item_testimonial{
