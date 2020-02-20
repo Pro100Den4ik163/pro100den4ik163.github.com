@@ -330,6 +330,12 @@ a{
   justify-content: center;
   background: url(/img/person.jpg) no-repeat;
 }
+.slider__item_img{
+  width: 50%;
+}
+.slider__item_img img{
+  width: 50%;
+}
 .slider__item_photo{
   display: flex;
   flex: 0 0 50%;
