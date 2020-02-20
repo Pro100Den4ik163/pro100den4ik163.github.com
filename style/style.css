@@ -334,7 +334,9 @@ a{
   width: 50%;
 }
 .slider__item_img img{
-  width: 50%;
+   max-width: 50%;
+ height: auto;
+ display: block;
 }
 .slider__item_photo{
   display: flex;
