@@ -254,22 +254,22 @@ a{
   font-weight: 600;
 }
 .item-1{
-  background: url(../img/item1.png) no-repeat;
+  background: url(/img/item1.png) no-repeat;
   background-size: cover;
   background-color: #44B1D2;
 }
 .item-2{
-  background: url(../img/item2.png) no-repeat;
+  background: url(/img/item2.png) no-repeat;
   background-size: cover;
   background-color: #44B1D2;
 }
 .item-3{
-  background: url(../img/item3.png) no-repeat;
+  background: url(/img/item3.png) no-repeat;
   background-size: cover;
   background-color: #44B1D2;
 }
 .item-4{
-  background: url(../img/item4.png) no-repeat;
+  background: url(/img/item4.png) no-repeat;
   background-size: cover;
   background-color: #44B1D2;
 }
@@ -328,11 +328,13 @@ a{
   display: flex;
   flex: 0 0 50%;
   justify-content: center;
+  background: url(/img/person.jpg) no-repeat;
 }
 .slider__item_photo{
   display: flex;
   flex: 0 0 50%;
   justify-content: space-between;
+  background: url(/img/person.jpg) no-repeat;
 }
 
 
